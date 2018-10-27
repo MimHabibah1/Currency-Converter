@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ummehabiba.www.currencyconverter.AboutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0c6ad6"
+        android:textSize="15sp"
+
+        android:layout_gravity="top"
+        android:layout_margin="12dp"
+        android:layout_marginBottom="11dp"
+        android:text="Description : "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0c6ad6"
+        android:textSize="17sp"
+
+        android:layout_gravity="top"
+        android:layout_margin="11dp"
+        android:text="Currency Converter is specially built for converting BDT to Euro/Rupee/USD."/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="51dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0c6ad6"
+            android:textSize="11sp"
+            android:textAlignment="center"
+            android:text="com.cgpacalc.ummehabiba.cgpacalculator"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0c6ad6"
+            android:textSize="21sp"
+            android:textAlignment="center"
+            android:text="Developed by"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0c6ad6"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Umme Habiba Mim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0c6ad6"
+            android:textSize="21sp"
+            android:textAlignment="center"
+            android:text="Email : ummeh150@gmail.com"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
